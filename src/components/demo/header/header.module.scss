@@ -1,0 +1,30 @@
+.header{
+    background-color: #7749F8;
+    padding: 8px 166px;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    h2, h3, h5{
+        margin-top: 0;
+        margin-bottom: 0;
+        color: white;
+        font-weight: 600;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 1.4rem;
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .header{
+        justify-content: center;
+        h5{
+            display: none;
+        }
+    }
+  }

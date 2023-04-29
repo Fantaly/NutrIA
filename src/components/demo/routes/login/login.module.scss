@@ -1,0 +1,37 @@
+.login__container{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: login-animation 0.25s ease-in-out;
+}
+
+@keyframes login-animation{
+    0%{
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 30rem;
+    margin-bottom: 2rem;
+    input{
+        width: auto;
+    }
+}
+
+.name__label{
+    margin-right: 2rem;
+}
+
+.w-30{
+}
